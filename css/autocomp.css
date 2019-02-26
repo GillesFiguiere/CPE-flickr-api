@@ -1,0 +1,53 @@
+body {
+	font-family : sans-serif ;
+	font-size : 0.9em ;
+	/* background-image : url( '../img/back.jpg' ) ; */
+	overflow : hidden ;
+	margin : 20px ;
+	padding : 0px ;
+}
+
+. {
+	margin : 0px ;
+	padding : 0px ;
+}
+
+#zone_saisie_1 {
+	width : 400px ;
+	border : 2px black solid ; 
+	padding : 3px ;
+}
+
+#boutton_envoi_1 {
+	border : 2px black solid ;
+	padding : 2px ;
+}
+
+#zone_suggestion_1 {
+	margin-top : 5px ;
+}
+
+#zone_suggestion_1 ul {
+	border: 2px black solid ;
+	list-style-type : none ;
+	padding : 0px ;
+	margin : 0px ;
+	background : white ;
+	height : 200px ;
+	overflow : auto ;
+}
+
+#zone_suggestion_1 ul li {
+	padding : 3px ;
+	margin : 0px ;
+}
+
+#zone_suggestion_1 ul li:hover {
+	background : #FFFFDD ;
+}
+
+.informal {
+	font-size : 0.7em ;
+	/* font-style : italic ; */
+	display : block ;
+}
